@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aryan-portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class='bx bx-x' onclick="closemenu()"></i>
+                </ul>
+                <i class='bx bx-menu' onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Student at NIT Patna</p>
+                <h1>Hi,I am Kumar <span> Aryan</span><br> from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-----about----->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="aryan.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>hello everyone my name is kumar aryan,basically iam from patna,bihar.
+                        i am btech student at
+                        NIT patna in electrical engineering branch,i am very etusiastic in
+                        tech fields and want to make my
+                        career in this field , i have learn some basic skills in web development
+                        and ans following striver a2z dsa course to complete my dsa in c++,
+                        i have done my matriculation from dav public school and got 77% and my class 12th from
+                        leeds asian school and got 88% .
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experince')">Experince</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><Span>UI/UX</Span><br>Designing web interfaces</li>
+                            <li><Span>Electrical engineering</Span><br>Power electronics</li>
+                            <li><Span>Coding C++</Span><br>Striver A2Z Sheet</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experince">
+                        <ul>
+                            <li><Span>2023</Span><br>97.5 Percentile in Jee Mains (Edunti) </li>
+                            <li><Span>1st Year at NIT Patna </Span><br>Electrical engineering</li>
+                            <li><Span> IEEE content team Member</Span><br>IEEE SB NIT Patna</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><Span>2020</Span><br>Mtriculation from DAV Public school</li>
+                            <li><Span>2022</Span><br>Inter from leeds asian school</li>
+                            <li><Span>2024-Current</Span><br>Btech from NIT Patna</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class='bx bx-code-alt'></i>
+                    <h2>Web design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        quisquam consequatur dignissimos ex velit odio
+                        blanditiis quasi? Fuga commodi sunt nem</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class='bx bxs-crop'></i>
+                    <h2>UI/UX</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                        quisquam consequatur dignissimos ex velit odio
+                        blanditiis quasi? Fuga commodi sunt nem</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class='bx bxs-edit-alt'></i>
+                    <h2>App design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                        quisquam consequatur dignissimos ex velit odio
+                        blanditiis quasi? Fuga commodi sunt nem</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!--portfolio-->
+       <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">MY WORK </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/ee.jpg" >
+                    <div class="layer">
+                        <h3>web development</h3>
+                        <p>cvrcerb uuiuibeui uc euicbuicece cecui uibe iuee eeeu </p>
+                        <a href="#"> <i class='bx bx-code-alt'></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/code.jpg" >
+                    <div class="layer">
+                        <h3>App development</h3>
+                        <p>cvrcerb uuiuibeui uc euicbuicece cecui uibe iuee eeeu </p>
+                        <a href="#"> <i class='bx bx-code-alt'></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/web.jpg" >
+                    <div class="layer">
+                        <h3>Electrical engineering</h3>
+                        <p>cvrcerb uuiuibeui uc euicbuicece cecui uibe iuee eeeu </p>
+                        <a href="#"> <i class='bx bx-code-alt'></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+       </div>
+       <!--contact form-->
+       <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class='bx bx-paper-plane' ></i>nitianaryan2613@gmail.com</p>
+                    <p><i class='bx bx-phone-call' ></i>9162993590</p>
+                    <div class="social-icons">
+                        <a href="https:facebook.com/"><i class='bx bxl-facebook-circle'></i></a>
+                        <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                    </div>
+                     <a href="pdf.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form class="contact-right">
+                        <input type="text" name="NAME" placeholder="YOUR NAME" required>
+                        <input type="email" name="Email" placeholder="your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2" >Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright kr Aryan .Made with<i class='bx bxs-heart'></i> by Easy Tutorials</p>
+        </div>
+       </div>
+    <!--javascript-->
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu()
+        {
+            sidemenu.style.right="0";
+        }
+        function closemenu()
+        {
+            sidemenu.style.right="-200px";
+        }
+    </script>
+</body>
+
+</html>
